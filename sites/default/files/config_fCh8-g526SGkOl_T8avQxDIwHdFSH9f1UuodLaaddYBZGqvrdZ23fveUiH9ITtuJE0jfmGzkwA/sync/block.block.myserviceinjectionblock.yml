@@ -1,0 +1,20 @@
+uuid: 417e4a3d-f845-47b9-b48c-2031e3bee2df
+langcode: en
+status: true
+dependencies:
+  module:
+    - drupaltest
+  theme:
+    - bartik
+id: myserviceinjectionblock
+theme: bartik
+region: sidebar_second
+weight: 0
+provider: null
+plugin: my_serviceinjection_customblock_example_block
+settings:
+  id: my_serviceinjection_customblock_example_block
+  label: 'My Service Injection block'
+  provider: drupaltest
+  label_display: visible
+visibility: {  }

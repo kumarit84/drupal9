@@ -1,0 +1,20 @@
+uuid: 555535be-8cf3-4d64-b0e2-eb7131080b73
+langcode: en
+status: true
+dependencies:
+  module:
+    - drupaltest
+  theme:
+    - bartik
+id: mycustomblock
+theme: bartik
+region: sidebar_first
+weight: -5
+provider: null
+plugin: my_customblock_example_block
+settings:
+  id: my_customblock_example_block
+  label: 'My Custom block'
+  provider: drupaltest
+  label_display: visible
+visibility: {  }
