@@ -50,6 +50,14 @@ drupaltest.customaccess:
     _permission: 'access content'
     drupal_access_check: 'TRUE'
 
+drupaltest.stateapiaddform:
+  path: '/drupaltest/configform'
+  defaults:
+    _form: '\Drupal\drupaltest\Form\ConfigForm'
+    _title: 'Config API & State API Form'
+  requirements:
+    _permission: 'access content'
+
 drupaltest.addform:
   path: '/drupaltest/addform/{tid}'
   defaults:

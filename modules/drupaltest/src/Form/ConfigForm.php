@@ -12,20 +12,20 @@ use Drupal\Core\State\State;
  *
  * @internal
  */
-class DrupaltestForm extends FormBase {
+class ConfigForm extends FormBase {
 
   protected $drupaltestservice;
 
-  protected $state
+  protected $state;
 
-  public function __construct(DrupaltestService $drupaltestservice,State $state) {
+  public function __construct(DrupaltestService $drupaltestservice, State $state) {
     $this->drupaltestservice = $drupaltestservice;
     $this->state = $state;
   }
 
   public static function create(ContainerInterface $container) {
     return new static(
-      $container->get('drupaltest.getsitename')
+      $container->get('drupaltest.getsitename'),
       $container->get('state')
     );
   }
@@ -45,7 +45,7 @@ class DrupaltestForm extends FormBase {
     $form['site_message'] = [
       '#type' => 'textfield',
       '#title' => $this->t('Site specific Message.'),
-      '#default_value' => $this->state->get('site_message'),
+      '#default_value' => $this->state->get('drupaltest.site_message'),
     ];
 
     $form['submit_message'] = [
@@ -60,8 +60,7 @@ class DrupaltestForm extends FormBase {
    * {@inheritdoc}
    */
   public function submitForm(array &$form, FormStateInterface $form_state) {
-    $sitename = $this->drupaltestservice->getSitename();
-
+        $this->state->set('drupaltest.site_message',$form_state->getValue('site_message'));
   }
 
 }
