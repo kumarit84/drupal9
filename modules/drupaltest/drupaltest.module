@@ -1,0 +1,14 @@
+<?php
+
+use Drupal\node\NodeInterface;
+use Drupal\drupaltest\Event\CustomNodeEvent;
+
+function drupaltest_node_insert(NodeInterface $node){
+	$event = new CustomNodeEvent($node);
+    \Drupal::service('event_dispatcher')->dispatch($event, CustomNodeEvent::NODEADD_EVENT);
+}
+
+function drupaltest_node_update(NodeInterface $node){
+	$event = new CustomNodeEvent($node);
+    \Drupal::service('event_dispatcher')->dispatch($event, CustomNodeEvent::NODEUPDATE_EVENT);
+}

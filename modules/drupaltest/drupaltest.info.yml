@@ -1,0 +1,10 @@
+name: Drupaltest
+type: module
+description: 'Test my drupal stuffs.'
+core_version_requirement: ^8.8 || ^9
+
+
+# Information added by Drupal.org packaging script on 2021-07-07
+version: '9.2.1'
+project: 'drupal'
+datestamp: 1625664353

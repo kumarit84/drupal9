@@ -1,0 +1,60 @@
+drupaltest.displayplage:
+  path: '/drupaltest/display'
+  defaults:
+    _controller: '\Drupal\drupaltest\Controller\DrupaltestController::getPageDisplay'
+    _title: 'My first page'
+  requirements:
+    _permission: 'access content'
+
+drupaltest.redirecttoadmin:
+  path: '/drupaltest/redirectadmin'
+  defaults:
+    _controller: '\Drupal\drupaltest\Controller\DrupaltestController::getRedirectPage'
+  requirements:
+    _permission: 'access content'
+
+drupaltest.alterrouteexample:
+  path: '/drupaltest/alterroute'
+  defaults:
+    _controller: '\Drupal\drupaltest\Controller\DrupaltestController::getAlterRoutePage'
+  requirements:
+    _permission: 'access content'
+
+drupaltest.accessdenied:
+  path: '/drupaltest/accessdenied'
+  defaults:
+    _controller: '\Drupal\drupaltest\Controller\DrupaltestController::getAccessDenied'
+  requirements:
+    _permission: 'access content'
+
+drupaltest.alterthemecheck:
+  path: '/drupaltest/alterthemecheck'
+  defaults:
+    _controller: '\Drupal\drupaltest\Controller\DrupaltestController::getAlterThemeCheck'
+  requirements:
+    _permission: 'access content'
+
+drupaltest.accessoveride:
+  path: '/drupaltest/accessoveride'
+  defaults:
+    _controller: '\Drupal\drupaltest\Controller\CustomAccess::AccessOverideCheck'
+  requirements:
+    _permission: 'access content'
+    _custom_access: '\Drupal\drupaltest\Controller\CustomAccess::access'
+
+drupaltest.customaccess:
+  path: '/drupaltest/customaccess'
+  defaults:
+    _controller: '\Drupal\drupaltest\Controller\CustomAccess::customAccessCheck'
+  requirements:
+    _permission: 'access content'
+    drupal_access_check: 'TRUE'
+
+drupaltest.addform:
+  path: '/drupaltest/addform/{tid}'
+  defaults:
+    _form: '\Drupal\drupaltest\Form\DrupaltestForm'
+    _title: 'Test form'
+    tid: ''
+  requirements:
+    _permission: 'access content'
