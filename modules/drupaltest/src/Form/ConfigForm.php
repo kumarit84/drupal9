@@ -65,6 +65,14 @@ class ConfigForm extends ConfigFormBase {
       '#value' => $this->t('Submit your message'),
     ];
 
+    $form['delete_message'] = array(
+      '#type' => 'submit',
+      '#submit' => array([$this, 'previousForm']),
+      '#value' => 'Delete',
+      '#limit_validation_errors' => array(), //no validation for back button
+  );
+
+
     return $form;
   }
 
@@ -72,11 +80,19 @@ class ConfigForm extends ConfigFormBase {
    * {@inheritdoc}
    */
   public function submitForm(array &$form, FormStateInterface $form_state) {
-        $this->state->set('drupaltest.site_message',$form_state->getValue('site_message'));
-        $this->config('drupaltest.settings')
+    $this->state->set('drupaltest.site_message',$form_state->getValue('site_message'));
+    $this->config('drupaltest.settings')
         // Remove unchecked types.
           ->set('config_message', $form_state->getValue('configapi_message'))
           ->save();  
   }
+
+  public function previousForm(array &$form, FormStateInterface $form_state) {
+    $this->state->delete('drupaltest.site_message');
+   \Drupal::configFactory()
+        ->getEditable('drupaltest.settings')
+        ->clear('config_message')
+        ->save();  
+  }  
 
 }
