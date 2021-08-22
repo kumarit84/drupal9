@@ -6,7 +6,7 @@
     'aliases' => 
     array (
     ),
-    'reference' => '10b88d66376a2c99cfd9fe9afb785e0a757bf94e',
+    'reference' => '1b1e0210eb95cb00bf3d8126e6de09d954114c7c',
     'name' => 'drupal/legacy-project',
   ),
   'versions' => 
@@ -19,6 +19,78 @@
       array (
       ),
       'reference' => 'b9c31def6a83f84b4d4a40d35996d375755f0e08',
+    ),
+    'behat/behat' => 
+    array (
+      'pretty_version' => 'v3.8.1',
+      'version' => '3.8.1.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => 'fbb065457d523d9856d4b50775b4151a7598b510',
+    ),
+    'behat/gherkin' => 
+    array (
+      'pretty_version' => 'v4.8.0',
+      'version' => '4.8.0.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '2391482cd003dfdc36b679b27e9f5326bd656acd',
+    ),
+    'behat/mink' => 
+    array (
+      'pretty_version' => 'v1.8.1',
+      'version' => '1.8.1.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '07c6a9fe3fa98c2de074b25d9ed26c22904e3887',
+    ),
+    'behat/mink-browserkit-driver' => 
+    array (
+      'pretty_version' => 'v1.3.4',
+      'version' => '1.3.4.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => 'e3b90840022ebcd544c7b394a3c9597ae242cbee',
+    ),
+    'behat/mink-extension' => 
+    array (
+      'pretty_version' => '2.3.1',
+      'version' => '2.3.1.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '80f7849ba53867181b7e412df9210e12fba50177',
+    ),
+    'behat/mink-goutte-driver' => 
+    array (
+      'pretty_version' => 'v1.2.1',
+      'version' => '1.2.1.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '8b9ad6d2d95bc70b840d15323365f52fcdaea6ca',
+    ),
+    'behat/mink-selenium2-driver' => 
+    array (
+      'pretty_version' => 'v1.4.0',
+      'version' => '1.4.0.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '312a967dd527f28980cce40850339cd5316da092',
+    ),
+    'behat/transliterator' => 
+    array (
+      'pretty_version' => 'v1.3.0',
+      'version' => '1.3.0.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '3c4ec1d77c3d05caa1f0bf8fb3aae4845005c7fc',
     ),
     'chi-teck/drupal-code-generator' => 
     array (
@@ -153,6 +225,24 @@
       ),
       'reference' => '3fbd874921ab2c041e899d044585a2ab9795df8a',
     ),
+    'dmore/behat-chrome-extension' => 
+    array (
+      'pretty_version' => '1.3.0',
+      'version' => '1.3.0.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '6279986ef85ac179f055460502e9b11c3784146c',
+    ),
+    'dmore/chrome-mink-driver' => 
+    array (
+      'pretty_version' => '2.8.0',
+      'version' => '2.8.0.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => 'f85c8f86ca2e9000119c310577a6942683f7e280',
+    ),
     'doctrine/annotations' => 
     array (
       'pretty_version' => '1.13.1',
@@ -240,6 +330,15 @@
       array (
         0 => '9.2.4',
       ),
+    ),
+    'drupal/addanother' => 
+    array (
+      'pretty_version' => '1.1.0',
+      'version' => '1.1.0.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '8.x-1.1',
     ),
     'drupal/aggregator' => 
     array (
@@ -647,6 +746,24 @@
       ),
       'reference' => '4.1.1',
     ),
+    'drupal/drupal-driver' => 
+    array (
+      'pretty_version' => 'v2.1.1',
+      'version' => '2.1.1.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => 'a33cb7618476997e1b7330ae9225c91cbab32e1c',
+    ),
+    'drupal/drupal-extension' => 
+    array (
+      'pretty_version' => 'v4.1.0',
+      'version' => '4.1.0.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => 'f611a70aaa2d1ef6b3fdae9c35dc573508c7d648',
+    ),
     'drupal/dynamic_page_cache' => 
     array (
       'replaced' => 
@@ -787,7 +904,7 @@
       'aliases' => 
       array (
       ),
-      'reference' => '10b88d66376a2c99cfd9fe9afb785e0a757bf94e',
+      'reference' => '1b1e0210eb95cb00bf3d8126e6de09d954114c7c',
     ),
     'drupal/link' => 
     array (
@@ -1117,6 +1234,15 @@
       ),
       'reference' => 'dc5bce653fa4d9c792e9dcffa728c0642847c1e1',
     ),
+    'fabpot/goutte' => 
+    array (
+      'pretty_version' => 'v3.3.1',
+      'version' => '3.3.1.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '80a23b64f44d54dd571d114c473d9d7e9ed84ca5',
+    ),
     'grasmash/expander' => 
     array (
       'pretty_version' => '1.0.0',
@@ -1161,6 +1287,15 @@
       array (
       ),
       'reference' => 'dc960a912984efb74d0a90222870c72c87f10c91',
+    ),
+    'instaclick/php-webdriver' => 
+    array (
+      'pretty_version' => '1.4.9',
+      'version' => '1.4.9.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '961b12178cb71f8667afaf2f66ab3e000e060e1c',
     ),
     'laminas/laminas-diactoros' => 
     array (
@@ -1415,6 +1550,24 @@
       ),
       'reference' => '3c97e7b7709b313cecfb76d691ad4cc22acbf3f5',
     ),
+    'symfony/browser-kit' => 
+    array (
+      'pretty_version' => 'v4.4.27',
+      'version' => '4.4.27.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '9629d1524d8ced5a4ec3e94abdbd638b4ec8319b',
+    ),
+    'symfony/config' => 
+    array (
+      'pretty_version' => 'v4.4.27',
+      'version' => '4.4.27.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '8132e8d645d703e9b7c9c4f25067b93638683a35',
+    ),
     'symfony/console' => 
     array (
       'pretty_version' => 'v4.4.25',
@@ -1423,6 +1576,15 @@
       array (
       ),
       'reference' => 'a62acecdf5b50e314a4f305cd01b5282126f3095',
+    ),
+    'symfony/css-selector' => 
+    array (
+      'pretty_version' => 'v5.3.4',
+      'version' => '5.3.4.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '7fb120adc7f600a59027775b224c13a33530dd90',
     ),
     'symfony/debug' => 
     array (
@@ -1450,6 +1612,15 @@
       array (
       ),
       'reference' => '5f38c8804a9e97d23e0c8d63341088cd8a22d627',
+    ),
+    'symfony/dom-crawler' => 
+    array (
+      'pretty_version' => 'v4.4.27',
+      'version' => '4.4.27.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '86aa075c9e0b13ac7db8d73d1f9d8b656143881a',
     ),
     'symfony/error-handler' => 
     array (
@@ -1611,6 +1782,15 @@
       ),
       'reference' => 'eca0bf41ed421bed1b57c4958bab16aa86b757d0',
     ),
+    'symfony/polyfill-php81' => 
+    array (
+      'pretty_version' => 'v1.23.0',
+      'version' => '1.23.0.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => 'e66119f3de95efc359483f810c4c3e6436279436',
+    ),
     'symfony/process' => 
     array (
       'pretty_version' => 'v4.4.25',
@@ -1714,6 +1894,15 @@
       array (
       ),
       'reference' => '81cdac5536925c1c4b7b50aabc9ff6330b9eb5fc',
+    ),
+    'textalk/websocket' => 
+    array (
+      'pretty_version' => '1.5.5',
+      'version' => '1.5.5.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '846542f82658132cd36acb7a7e8ce0f03960c295',
     ),
     'twig/twig' => 
     array (

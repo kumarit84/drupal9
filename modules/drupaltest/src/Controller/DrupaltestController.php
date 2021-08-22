@@ -44,10 +44,11 @@ class DrupaltestController extends ControllerBase {
   }
 
   public function getPageDisplay(Request $request) {
+      global $base_url;
       //dpm($this->account);
       $username = $this->account->getDisplayName();
       $message = 'Hello world from '.$username.'<br/>-- '.$this->drupaltestservice->getAcccountEmail();
-
+      $message .= '<br/>Base url : '.$base_url;
       return [
             '#type' => 'markup',
             '#markup' => $this->t($message),

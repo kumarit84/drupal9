@@ -1,0 +1,29 @@
+default:
+  suites:
+    default:
+      contexts:
+        - FeatureContext
+        - Drupal\DrupalExtension\Context\DrupalContext
+        - Drupal\DrupalExtension\Context\MinkContext
+  gherkin:
+    cache: ~
+  extensions:
+    DMore\ChromeExtension\Behat\ServiceContainer\ChromeExtension: ~
+    Drupal\MinkExtension:
+      goutte: ~
+      base_url: http://localhost:8800/drupaldemo/
+      javascript_session: selenium2
+      selenium2:
+        browser: chrome
+        wd_host: http://127.0.0.1:4444/wd/hub
+        capabilities: { 'chrome': {'switches':['--start-maximized','--disable-gpu']}}
+    Drupal\DrupalExtension:
+      blackbox: ~
+      api_driver: drupal
+      drupal:
+        drupal_root: /Applications/MAMP/htdocs/drupaldemo
+      region_map:
+        header: "#header"
+        sidebar: "#sidebar-first"
+        content: "#content"
+        footer: ".site-footer"

@@ -1,0 +1,69 @@
+vim ~/.bash_profile
+esc :q
+source ~/.bash_profile
+
+composer require --dev behat/behat dmore/behat-chrome-extension drupal/drupal-extension
+
+./vendor/bin/behat --init
+
+create behat.yml
+
+create feature file
+
+Install Java download dmg file
+
+dmg file
+
+Uninstall
+
+sudo rm -fr /Library/Internet\ Plug-Ins/JavaAppletPlugin.plugin
+sudo rm -fr /Library/PreferencePanes/JavaControlPanel.prefPane
+sudo rm -fr ~/Library/Application\ Support/Oracle/Java
+
+
+
+Chromedriverinstall
+
+brew install chromedriver
+
+brew uninstall chromedriver
+
+
+Selinum install
+
+brew install selenium-server-standalone
+
+start the service
+
+brew services start selenium-server-standalone
+
+or
+
+selenium-server -port 4444
+
+check 
+localhost:4444/
+
+Selinum Uninstall
+brew services stop selenium-server-standalone
+brew uninstall --force selenium-server-standalone
+
+
+Install geckodriver
+
+brew install geckodriver
+
+brew uninstall geckodriver
+
+
+Install firefox
+
+
+Standalone installtion
+
+
+
+java -Dwebdriver.chrome.driver=/Applications/MAMP/htdocs/drupaldemo/behat-test/chromedriver.exe  -Dwebdriver.gecko.driver=/Applications/MAMP/htdocs/drupaldemo/behat-test/geckodrive.exe -jar /Applications/MAMP/htdocs/drupaldemo/behat-test/selenium-server-standalone-3.9.1.jar
+
+
+java -jar /Applications/MAMP/htdocs/drupaldemo/behat-test/selenium-server-standalone-3.9.1.jar
