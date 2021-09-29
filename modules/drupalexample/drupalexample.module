@@ -1,0 +1,11 @@
+<?php
+
+
+
+function drupalexample_drupaltest_node_list(&$list){
+  foreach($list as $key=>$nid){
+  	//dpm($nid);
+  }
+    	//dpm($list);
+
+}

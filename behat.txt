@@ -1,7 +1,13 @@
 vim ~/.bash_profile
-esc :q
+esc :wq
 source ~/.bash_profile
 
+Coreupdate
+----------
+composer update drupal/core "drupal/core-*" --with-all-dependencies
+
+Behat
+------
 composer require --dev behat/behat dmore/behat-chrome-extension drupal/drupal-extension
 
 ./vendor/bin/behat --init
@@ -23,6 +29,7 @@ sudo rm -fr ~/Library/Application\ Support/Oracle/Java
 
 
 Chromedriverinstall
+--------------------
 
 brew install chromedriver
 
@@ -30,6 +37,7 @@ brew uninstall chromedriver
 
 
 Selinum install
+---------------
 
 brew install selenium-server-standalone
 
@@ -60,10 +68,37 @@ Install firefox
 
 
 Standalone installtion
-
+-------------------
 
 
 java -Dwebdriver.chrome.driver=/Applications/MAMP/htdocs/drupaldemo/behat-test/chromedriver.exe  -Dwebdriver.gecko.driver=/Applications/MAMP/htdocs/drupaldemo/behat-test/geckodrive.exe -jar /Applications/MAMP/htdocs/drupaldemo/behat-test/selenium-server-standalone-3.9.1.jar
 
 
-java -jar /Applications/MAMP/htdocs/drupaldemo/behat-test/selenium-server-standalone-3.9.1.jar
+java -Dwebdriver.chrome.driver=/Applications/MAMP/htdocs/drupaldemo/behat-test/chromedriver  -Dwebdriver.gecko.driver=/Applications/MAMP/htdocs/drupaldemo/behat-test/geckodrive -jar /Applications/MAMP/htdocs/drupaldemo/behat-test/selenium-server-standalone-3.9.1.jar
+
+
+phpunit
+-------
+composer require --dev phpunit/phpunit phpspec/prophecy-phpunit:^2 behat/mink-selenium2-driver symfony/phpunit-bridge
+
+mkdir -p sites/simpletest/browser_output
+
+chmod +w sites/simpletest
+
+export SIMPLETEST_DB='mysql://root:root@localhost/drupaldemo'
+export SIMPLETEST_BASE_URL='http://localhost:8800/drupaldemo'
+
+
+test
+
+lando init --receipe=drupal9 --webroot .  --name drupal9
+
+4146b557620940a2b450b2d84a8d145f
+java -jar jenkins.war 
+
+docker run -tid -p 8000:80 --name apache_server php:7.4-apache
+
+
+Drupal update
+composer update drupal/core "drupal/core-*" --with-all-dependencies
+composer update drupal/core --

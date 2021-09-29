@@ -2,6 +2,9 @@ services:
   drupaltest.getsitename:
     class: Drupal\drupaltest\Services\DrupaltestService
     arguments: ['@config.factory','@current_user']
+  drupaltest.drupalutility:
+    class: Drupal\drupaltest\DrupalUtility
+    arguments: ['@current_user','@drupaltest.getsitename']
   drupaltest.alterroutes:
     class: Drupal\drupaltest\EventSubscriber\AlterRouteSubscriber
     tags:

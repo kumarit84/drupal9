@@ -813,3 +813,8 @@ $databases['default']['default'] = array (
   'driver' => 'mysql',
 );
 $settings['config_sync_directory'] = 'sites/default/files/config_fCh8-g526SGkOl_T8avQxDIwHdFSH9f1UuodLaaddYBZGqvrdZ23fveUiH9ITtuJE0jfmGzkwA/sync';
+
+$settings['trusted_host_patterns'] = [
+  '^localhost$',
+];
+

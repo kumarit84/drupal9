@@ -1,0 +1,940 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"drupalco",
+				"RawDrupalContext"
+			],
+			[
+				"de",
+				"delete"
+			],
+			[
+				"s",
+				"settings"
+			],
+			[
+				"ACC",
+				"AccessResult"
+			],
+			[
+				"acc",
+				"AccountInterface"
+			],
+			[
+				"a",
+				"Access"
+			],
+			[
+				"if",
+				"allowedIf"
+			],
+			[
+				"getT",
+				"getTitle"
+			],
+			[
+				"getO",
+				"getOwner"
+			],
+			[
+				"D",
+				"DrupaltestService"
+			],
+			[
+				"Routin",
+				"RouteCollection"
+			],
+			[
+				"u",
+				"utility"
+			],
+			[
+				"GET",
+				"getAcccountEmail"
+			],
+			[
+				"C",
+				"configFactory"
+			],
+			[
+				"con",
+				"container"
+			],
+			[
+				"Messe",
+				"MessengerInterface"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "behat.yml",
+			"settings":
+			{
+				"buffer_size": 867,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "behat.txt",
+			"settings":
+			{
+				"buffer_size": 1680,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			},
+			"undo_stack":
+			[
+				[
+					5,
+					1,
+					"insert",
+					{
+						"characters": "\n\n\nphp"
+					},
+					"BgAAAMoFAAAAAAAAywUAAAAAAAAAAAAAywUAAAAAAADMBQAAAAAAAAAAAADMBQAAAAAAAM0FAAAAAAAAAAAAAM0FAAAAAAAAzgUAAAAAAAAAAAAAzgUAAAAAAADPBQAAAAAAAAAAAADPBQAAAAAAANAFAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAygUAAAAAAADKBQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					6,
+					1,
+					"insert",
+					{
+						"characters": "unit"
+					},
+					"BAAAANAFAAAAAAAA0QUAAAAAAAAAAAAA0QUAAAAAAADSBQAAAAAAAAAAAADSBQAAAAAAANMFAAAAAAAAAAAAANMFAAAAAAAA1AUAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA0AUAAAAAAADQBQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					7,
+					1,
+					"insert",
+					{
+						"characters": "\n\n"
+					},
+					"AgAAANQFAAAAAAAA1QUAAAAAAAAAAAAA1QUAAAAAAADWBQAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA1AUAAAAAAADUBQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					8,
+					1,
+					"insert",
+					{
+						"characters": "composer"
+					},
+					"CAAAANYFAAAAAAAA1wUAAAAAAAAAAAAA1wUAAAAAAADYBQAAAAAAAAAAAADYBQAAAAAAANkFAAAAAAAAAAAAANkFAAAAAAAA2gUAAAAAAAAAAAAA2gUAAAAAAADbBQAAAAAAAAAAAADbBQAAAAAAANwFAAAAAAAAAAAAANwFAAAAAAAA3QUAAAAAAAAAAAAA3QUAAAAAAADeBQAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA1gUAAAAAAADWBQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					9,
+					1,
+					"insert",
+					{
+						"characters": " require"
+					},
+					"CAAAAN4FAAAAAAAA3wUAAAAAAAAAAAAA3wUAAAAAAADgBQAAAAAAAAAAAADgBQAAAAAAAOEFAAAAAAAAAAAAAOEFAAAAAAAA4gUAAAAAAAAAAAAA4gUAAAAAAADjBQAAAAAAAAAAAADjBQAAAAAAAOQFAAAAAAAAAAAAAOQFAAAAAAAA5QUAAAAAAAAAAAAA5QUAAAAAAADmBQAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA3gUAAAAAAADeBQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					10,
+					1,
+					"insert",
+					{
+						"characters": " -"
+					},
+					"AgAAAOYFAAAAAAAA5wUAAAAAAAAAAAAA5wUAAAAAAADoBQAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA5gUAAAAAAADmBQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					11,
+					1,
+					"insert",
+					{
+						"characters": "-dev"
+					},
+					"BAAAAOgFAAAAAAAA6QUAAAAAAAAAAAAA6QUAAAAAAADqBQAAAAAAAAAAAADqBQAAAAAAAOsFAAAAAAAAAAAAAOsFAAAAAAAA7AUAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA6AUAAAAAAADoBQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					12,
+					1,
+					"insert",
+					{
+						"characters": " "
+					},
+					"AQAAAOwFAAAAAAAA7QUAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA7AUAAAAAAADsBQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					13,
+					1,
+					"insert",
+					{
+						"characters": "phpunit/"
+					},
+					"CAAAAO0FAAAAAAAA7gUAAAAAAAAAAAAA7gUAAAAAAADvBQAAAAAAAAAAAADvBQAAAAAAAPAFAAAAAAAAAAAAAPAFAAAAAAAA8QUAAAAAAAAAAAAA8QUAAAAAAADyBQAAAAAAAAAAAADyBQAAAAAAAPMFAAAAAAAAAAAAAPMFAAAAAAAA9AUAAAAAAAAAAAAA9AUAAAAAAAD1BQAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA7QUAAAAAAADtBQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					14,
+					1,
+					"insert",
+					{
+						"characters": "phpunit"
+					},
+					"BwAAAPUFAAAAAAAA9gUAAAAAAAAAAAAA9gUAAAAAAAD3BQAAAAAAAAAAAAD3BQAAAAAAAPgFAAAAAAAAAAAAAPgFAAAAAAAA+QUAAAAAAAAAAAAA+QUAAAAAAAD6BQAAAAAAAAAAAAD6BQAAAAAAAPsFAAAAAAAAAAAAAPsFAAAAAAAA/AUAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA9QUAAAAAAAD1BQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					15,
+					1,
+					"insert",
+					{
+						"characters": " "
+					},
+					"AQAAAPwFAAAAAAAA/QUAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA/AUAAAAAAAD8BQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					16,
+					1,
+					"insert",
+					{
+						"characters": "phpspe"
+					},
+					"BgAAAP0FAAAAAAAA/gUAAAAAAAAAAAAA/gUAAAAAAAD/BQAAAAAAAAAAAAD/BQAAAAAAAAAGAAAAAAAAAAAAAAAGAAAAAAAAAQYAAAAAAAAAAAAAAQYAAAAAAAACBgAAAAAAAAAAAAACBgAAAAAAAAMGAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA/QUAAAAAAAD9BQAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					17,
+					1,
+					"insert",
+					{
+						"characters": "c"
+					},
+					"AQAAAAMGAAAAAAAABAYAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAAwYAAAAAAAADBgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					18,
+					1,
+					"insert",
+					{
+						"characters": "/prop"
+					},
+					"BQAAAAQGAAAAAAAABQYAAAAAAAAAAAAABQYAAAAAAAAGBgAAAAAAAAAAAAAGBgAAAAAAAAcGAAAAAAAAAAAAAAcGAAAAAAAACAYAAAAAAAAAAAAACAYAAAAAAAAJBgAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAABAYAAAAAAAAEBgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					19,
+					1,
+					"insert",
+					{
+						"characters": "hecy"
+					},
+					"BAAAAAkGAAAAAAAACgYAAAAAAAAAAAAACgYAAAAAAAALBgAAAAAAAAAAAAALBgAAAAAAAAwGAAAAAAAAAAAAAAwGAAAAAAAADQYAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAACQYAAAAAAAAJBgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					20,
+					1,
+					"insert",
+					{
+						"characters": "-phpunit"
+					},
+					"CAAAAA0GAAAAAAAADgYAAAAAAAAAAAAADgYAAAAAAAAPBgAAAAAAAAAAAAAPBgAAAAAAABAGAAAAAAAAAAAAABAGAAAAAAAAEQYAAAAAAAAAAAAAEQYAAAAAAAASBgAAAAAAAAAAAAASBgAAAAAAABMGAAAAAAAAAAAAABMGAAAAAAAAFAYAAAAAAAAAAAAAFAYAAAAAAAAVBgAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAADQYAAAAAAAANBgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					21,
+					1,
+					"insert",
+					{
+						"characters": ":"
+					},
+					"AQAAABUGAAAAAAAAFgYAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAFQYAAAAAAAAVBgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					22,
+					1,
+					"insert",
+					{
+						"characters": "^2"
+					},
+					"AgAAABYGAAAAAAAAFwYAAAAAAAAAAAAAFwYAAAAAAAAYBgAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAFgYAAAAAAAAWBgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					23,
+					1,
+					"insert",
+					{
+						"characters": " behat"
+					},
+					"BgAAABgGAAAAAAAAGQYAAAAAAAAAAAAAGQYAAAAAAAAaBgAAAAAAAAAAAAAaBgAAAAAAABsGAAAAAAAAAAAAABsGAAAAAAAAHAYAAAAAAAAAAAAAHAYAAAAAAAAdBgAAAAAAAAAAAAAdBgAAAAAAAB4GAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAGAYAAAAAAAAYBgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					24,
+					1,
+					"insert",
+					{
+						"characters": "/"
+					},
+					"AQAAAB4GAAAAAAAAHwYAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAHgYAAAAAAAAeBgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					25,
+					1,
+					"insert",
+					{
+						"characters": "mink-"
+					},
+					"BQAAAB8GAAAAAAAAIAYAAAAAAAAAAAAAIAYAAAAAAAAhBgAAAAAAAAAAAAAhBgAAAAAAACIGAAAAAAAAAAAAACIGAAAAAAAAIwYAAAAAAAAAAAAAIwYAAAAAAAAkBgAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAHwYAAAAAAAAfBgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					26,
+					1,
+					"insert",
+					{
+						"characters": "seleni"
+					},
+					"BgAAACQGAAAAAAAAJQYAAAAAAAAAAAAAJQYAAAAAAAAmBgAAAAAAAAAAAAAmBgAAAAAAACcGAAAAAAAAAAAAACcGAAAAAAAAKAYAAAAAAAAAAAAAKAYAAAAAAAApBgAAAAAAAAAAAAApBgAAAAAAACoGAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAJAYAAAAAAAAkBgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					27,
+					1,
+					"insert",
+					{
+						"characters": "um2-dri"
+					},
+					"BwAAACoGAAAAAAAAKwYAAAAAAAAAAAAAKwYAAAAAAAAsBgAAAAAAAAAAAAAsBgAAAAAAAC0GAAAAAAAAAAAAAC0GAAAAAAAALgYAAAAAAAAAAAAALgYAAAAAAAAvBgAAAAAAAAAAAAAvBgAAAAAAADAGAAAAAAAAAAAAADAGAAAAAAAAMQYAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAKgYAAAAAAAAqBgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					28,
+					1,
+					"insert",
+					{
+						"characters": "ver"
+					},
+					"AwAAADEGAAAAAAAAMgYAAAAAAAAAAAAAMgYAAAAAAAAzBgAAAAAAAAAAAAAzBgAAAAAAADQGAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAMQYAAAAAAAAxBgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					29,
+					1,
+					"insert",
+					{
+						"characters": " "
+					},
+					"AQAAADQGAAAAAAAANQYAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAANAYAAAAAAAA0BgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					30,
+					1,
+					"insert",
+					{
+						"characters": "symphony"
+					},
+					"CAAAADUGAAAAAAAANgYAAAAAAAAAAAAANgYAAAAAAAA3BgAAAAAAAAAAAAA3BgAAAAAAADgGAAAAAAAAAAAAADgGAAAAAAAAOQYAAAAAAAAAAAAAOQYAAAAAAAA6BgAAAAAAAAAAAAA6BgAAAAAAADsGAAAAAAAAAAAAADsGAAAAAAAAPAYAAAAAAAAAAAAAPAYAAAAAAAA9BgAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAANQYAAAAAAAA1BgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					31,
+					1,
+					"insert",
+					{
+						"characters": "/phpuni"
+					},
+					"BwAAAD0GAAAAAAAAPgYAAAAAAAAAAAAAPgYAAAAAAAA/BgAAAAAAAAAAAAA/BgAAAAAAAEAGAAAAAAAAAAAAAEAGAAAAAAAAQQYAAAAAAAAAAAAAQQYAAAAAAABCBgAAAAAAAAAAAABCBgAAAAAAAEMGAAAAAAAAAAAAAEMGAAAAAAAARAYAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAPQYAAAAAAAA9BgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					32,
+					1,
+					"insert",
+					{
+						"characters": "t-bri"
+					},
+					"BQAAAEQGAAAAAAAARQYAAAAAAAAAAAAARQYAAAAAAABGBgAAAAAAAAAAAABGBgAAAAAAAEcGAAAAAAAAAAAAAEcGAAAAAAAASAYAAAAAAAAAAAAASAYAAAAAAABJBgAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAARAYAAAAAAABEBgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					33,
+					1,
+					"insert",
+					{
+						"characters": "dge"
+					},
+					"AwAAAEkGAAAAAAAASgYAAAAAAAAAAAAASgYAAAAAAABLBgAAAAAAAAAAAABLBgAAAAAAAEwGAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAASQYAAAAAAABJBgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					82,
+					2,
+					"left_delete",
+					null,
+					"AgAAADkGAAAAAAAAOQYAAAAAAAABAAAAaDgGAAAAAAAAOAYAAAAAAAABAAAAcA",
+					"AQAAAAAAAAABAAAAOgYAAAAAAAA6BgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					83,
+					1,
+					"insert",
+					{
+						"characters": "f"
+					},
+					"AQAAADgGAAAAAAAAOQYAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAOAYAAAAAAAA4BgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					93,
+					1,
+					"insert",
+					{
+						"characters": "\n\n"
+					},
+					"AgAAAEsGAAAAAAAATAYAAAAAAAAAAAAATAYAAAAAAABNBgAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAASwYAAAAAAABLBgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					94,
+					1,
+					"paste",
+					null,
+					"AQAAAE0GAAAAAAAAdQYAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAATQYAAAAAAABNBgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					95,
+					1,
+					"insert",
+					{
+						"characters": "\n\n"
+					},
+					"AgAAAHUGAAAAAAAAdgYAAAAAAAAAAAAAdgYAAAAAAAB3BgAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAdQYAAAAAAAB1BgAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					96,
+					1,
+					"paste",
+					null,
+					"AQAAAHcGAAAAAAAAkAYAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAdwYAAAAAAAB3BgAAAAAAAAAAAAAAAPC/"
+				]
+			]
+		},
+		{
+			"contents": "<?php\n\nnamespace Drupal\\Tests\\Drupaltest\\Unit;\n\nuse Drupal\\Tests\\UnitTestCase;\n\n/**\n **\n */\nclass DrupalunitTest extends UnitTestCase {\n   \n  \n\n}\n",
+			"file": "modules/drupaltest/tests/src/Unit/DrupalunitTest.php",
+			"file_size": 147,
+			"file_write_time": 132741993605464883,
+			"redo_stack":
+			[
+				[
+					53,
+					1,
+					"",
+					null,
+					"AgAAAIwAAAAAAAAAkAAAAAAAAAAAAAAAfQAAAAAAAAB9AAAAAAAAAAQAAAAgICAK",
+					"AQAAAAAAAAABAAAAfQAAAAAAAACBAAAAAAAAAAAAAAAAAPC/"
+				]
+			],
+			"settings":
+			{
+				"buffer_size": 146,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			},
+			"undo_stack":
+			[
+				[
+					3,
+					4,
+					"left_delete",
+					null,
+					"BAAAAJIAAAAAAAAAkgAAAAAAAAABAAAAdJEAAAAAAAAAkQAAAAAAAAABAAAAc5AAAAAAAAAAkAAAAAAAAAABAAAAZY8AAAAAAAAAjwAAAAAAAAABAAAAdA",
+					"AQAAAAAAAAABAAAAkwAAAAAAAACTAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					4,
+					1,
+					"insert",
+					{
+						"characters": "unit"
+					},
+					"BAAAAI8AAAAAAAAAkAAAAAAAAAAAAAAAkAAAAAAAAACRAAAAAAAAAAAAAACRAAAAAAAAAJIAAAAAAAAAAAAAAJIAAAAAAAAAkwAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAjwAAAAAAAACPAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					14,
+					1,
+					"left_delete",
+					null,
+					"AQAAADAAAAAAAAAAMAAAAAAAAAAmAAAAdXNlIERydXBhbFxkcnVwYWx0ZXN0XERydXBhbHRlc3RUZXN0Owo",
+					"AQAAAAAAAAABAAAAMAAAAAAAAABWAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					38,
+					1,
+					"left_delete",
+					null,
+					"AQAAAE8AAAAAAAAATwAAAAAAAAABAAAACg",
+					"AQAAAAAAAAABAAAAUAAAAAAAAABQAAAAAAAAAAAAAAAAAPC/"
+				]
+			]
+		},
+		{
+			"file": "modules/drupaltest/src/Controller/DrupaltestController.php",
+			"settings":
+			{
+				"buffer_size": 2826,
+				"line_ending": "Unix"
+			},
+			"undo_stack":
+			[
+			]
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Applications/MAMP/htdocs/drupaldemo",
+		"/Applications/MAMP/htdocs/drupaldemo/modules",
+		"/Applications/MAMP/htdocs/drupaldemo/modules/contrib",
+		"/Applications/MAMP/htdocs/drupaldemo/modules/drupaltest",
+		"/Applications/MAMP/htdocs/drupaldemo/modules/drupaltest/src",
+		"/Applications/MAMP/htdocs/drupaldemo/modules/drupaltest/src/Controller",
+		"/Applications/MAMP/htdocs/drupaldemo/modules/drupaltest/src/Event",
+		"/Applications/MAMP/htdocs/drupaldemo/modules/drupaltest/tests",
+		"/Applications/MAMP/htdocs/drupaldemo/modules/drupaltest/tests/src",
+		"/Applications/MAMP/htdocs/drupaldemo/modules/drupaltest/tests/src/Unit",
+		"/Applications/MAMP/htdocs/drupaldemo/sites"
+	],
+	"file_history":
+	[
+		"/Applications/MAMP/htdocs/drupaldemo/modules/drupaltest/tests/src/Unit/DrupaltestTest.php",
+		"/Applications/MAMP/htdocs/drupaldemo/phpunit.xml",
+		"/Applications/MAMP/htdocs/drupaldemo/core/modules/media/tests/src/functionaljavascript/MediaViewsWizardTest.php",
+		"/Applications/MAMP/htdocs/drupaldemo/core/modules/media/tests/src/functionaljavascript/CKEditorIntegrationTest.php",
+		"/Applications/MAMP/htdocs/drupaldemo/core/modules/editor/tests/src/functional/EditorAdminTest.php",
+		"/Applications/MAMP/htdocs/drupaldemo/core/modules/media/tests/src/functional/MediaSourceFileTest.php",
+		"/Applications/MAMP/htdocs/drupaldemo/core/modules/media/tests/src/functional/MediaInstallTest.php",
+		"/Applications/MAMP/htdocs/drupaldemo/core/core.api.php",
+		"/Applications/MAMP/htdocs/drupaldemo/modules/drupaltest/drupaltest.routing.yml",
+		"/Applications/MAMP/htdocs/drupaldemo/modules/drupaltest/src/Controller/DrupaltestController.php",
+		"/Applications/MAMP/htdocs/drupaldemo/behat.yml",
+		"/Applications/MAMP/htdocs/drupaldemo/features/contact-feature.feature",
+		"/Applications/MAMP/htdocs/drupaldemo/vendor/composer/installed.php",
+		"/Applications/MAMP/htdocs/drupaldemo/features/contact-form.feature",
+		"/Applications/MAMP/htdocs/drupaldemo/features/bootstrap/FeatureContext.php",
+		"/Applications/MAMP/htdocs/drupaldemo/features/account_test.feature",
+		"/Applications/MAMP/htdocs/drupaldemo/features/account_registration.feature",
+		"/Applications/MAMP/htdocs/drupaldemo/features/first_feature.feature",
+		"/Applications/MAMP/htdocs/drupaldemo/core/themes/bartik/bartik.info.yml",
+		"/Applications/MAMP/htdocs/drupaldemo/core/modules/hal/hal.post_update.php",
+		"/Applications/MAMP/htdocs/drupaldemo/core/modules/system/tests/modules/system_mail_failure_test/src/plugin/mail/TestPhpMailFailure.php",
+		"/Applications/MAMP/htdocs/drupaldemo/core/modules/media/tests/src/functional/MediaAccessTest.php",
+		"/Applications/MAMP/htdocs/drupaldemo/core/modules/book/src/form/BookSettingsForm.php",
+		"/Applications/MAMP/htdocs/drupaldemo/core/modules/field_ui/tests/src/functional/ManageFieldsTest.php",
+		"/Applications/MAMP/htdocs/drupaldemo/core/modules/media_library/tests/src/functionaljavascript/WidgetUploadTest.php",
+		"/Applications/MAMP/htdocs/drupaldemo/core/modules/page_cache/tests/src/functional/PageCacheTest.php",
+		"/Applications/MAMP/htdocs/drupaldemo/core/modules/text/tests/src/kernel/migrate/MigrateTextConfigsTest.php",
+		"/Applications/MAMP/htdocs/drupaldemo/core/modules/node/tests/src/functional/views/FrontPageTest.php",
+		"/Applications/MAMP/htdocs/drupaldemo/core/modules/filter/tests/src/functional/FilterAdminTest.php",
+		"/Applications/MAMP/htdocs/drupaldemo/core/modules/node/tests/src/functional/views/NodeLanguageTest.php",
+		"/Applications/MAMP/htdocs/drupaldemo/core/modules/media/src/form/MediaSettingsForm.php",
+		"/Applications/MAMP/htdocs/drupaldemo/core/modules/block/src/BlockForm.php",
+		"/Applications/MAMP/htdocs/drupaldemo/core/core.services.yml",
+		"/Applications/MAMP/htdocs/drupaldemo/modules/drupaltest/src/Theme/AlterThemeName.php",
+		"/Applications/MAMP/htdocs/drupaldemo/core/lib/Drupal/Core/Theme/DefaultNegotiator.php",
+		"/Applications/MAMP/htdocs/drupaldemo/core/lib/Drupal/Core/Theme/AjaxBasePageNegotiator.php",
+		"/Applications/MAMP/htdocs/drupaldemo/core/lib/Drupal/Core/Theme/ThemeNegotiator.php",
+		"/Applications/MAMP/htdocs/drupaldemo/core/lib/Drupal/Core/StringTranslation/Translator/CustomStrings.php",
+		"/Applications/MAMP/htdocs/drupaldemo/core/lib/Drupal/Core/StringTranslation/TranslationManager.php",
+		"/Applications/MAMP/htdocs/drupaldemo/modules/drupaltest/src/Event/CustomNodeEvent.php",
+		"/Applications/MAMP/htdocs/drupaldemo/modules/drupaltest/src/EventSubscriber/CustomNodeEventSubscriber.php",
+		"/Applications/MAMP/htdocs/drupaldemo/modules/drupaltest/src/EventSubscriber/CustomConfigSubscriber.php",
+		"/Applications/MAMP/htdocs/drupaldemo/modules/drupaltest/drupaltest.services.yml",
+		"/Applications/MAMP/htdocs/drupaldemo/core/lib/Drupal/Core/DependencyInjection/Compiler/TaggedHandlersPass.php",
+		"/Applications/MAMP/htdocs/drupaldemo/core/modules/dynamic_page_cache/src/PageCache/RequestPolicy/DefaultRequestPolicy.php",
+		"/Applications/MAMP/htdocs/drupaldemo/core/tests/Drupal/Tests/Core/DependencyInjection/Compiler/TaggedHandlersPassTest.php",
+		"/Applications/MAMP/htdocs/drupaldemo/modules/drupaltest/src/Controller/CustomAccess.php",
+		"/Applications/MAMP/htdocs/drupaldemo/modules/drupaltest/src/Access/DrupaltestAccessCheck.php",
+		"/Applications/MAMP/htdocs/drupaldemo/modules/drupaltest/drupaltest.module",
+		"/Applications/MAMP/htdocs/drupaldemo/core/lib/Drupal/Core/Config/ConfigCrudEvent.php",
+		"/Applications/MAMP/htdocs/drupaldemo/core/lib/Drupal/Core/EventSubscriber/ActiveLinkResponseFilter.php",
+		"/Applications/MAMP/htdocs/drupaldemo/core/lib/Drupal/Core/Entity/EntityTypeEvent.php",
+		"/Applications/MAMP/htdocs/drupaldemo/core/lib/Drupal/Core/Entity/EntityTypeEvents.php",
+		"/Applications/MAMP/htdocs/drupaldemo/core/modules/migrate/src/MigrateExecutable.php",
+		"/Applications/MAMP/htdocs/drupaldemo/core/modules/migrate/src/Event/MigrateEvents.php",
+		"/Applications/MAMP/htdocs/drupaldemo/core/modules/migrate/src/Plugin/PluginEventSubscriber.php",
+		"/Applications/MAMP/htdocs/drupaldemo/core/modules/config_translation/src/Event/ConfigTranslationEvents.php",
+		"/Applications/MAMP/htdocs/drupaldemo/core/modules/user/src/Event/UserFloodEvent.php",
+		"/Applications/MAMP/htdocs/drupaldemo/core/modules/user/src/EventSubscriber/UserFloodSubscriber.php",
+		"/Applications/MAMP/htdocs/drupaldemo/core/modules/user/src/Event/UserEvents.php",
+		"/Applications/MAMP/htdocs/drupaldemo/core/modules/user/src/UserFloodControl.php",
+		"/Applications/MAMP/htdocs/drupaldemo/core/modules/language/src/Config/LanguageConfigOverrideCrudEvent.php",
+		"/Applications/MAMP/htdocs/drupaldemo/core/modules/config_translation/src/Event/ConfigMapperPopulateEvent.php",
+		"/Applications/MAMP/htdocs/drupaldemo/core/modules/config_translation/src/ConfigNamesMapper.php",
+		"/Applications/MAMP/htdocs/drupaldemo/core/modules/update/update.module",
+		"/Applications/MAMP/htdocs/drupaldemo/core/modules/config_translation/config_translation.module",
+		"/Applications/MAMP/htdocs/drupaldemo/core/modules/layout_builder/src/Event/PrepareLayoutEvent.php",
+		"/Applications/MAMP/htdocs/drupaldemo/core/modules/file/file.module",
+		"/Applications/MAMP/htdocs/drupaldemo/core/modules/locale/locale.module",
+		"/Applications/MAMP/htdocs/drupaldemo/core/modules/editor/src/EventSubscriber/EditorConfigTranslationSubscriber.php",
+		"/Applications/MAMP/htdocs/drupaldemo/modules/drupaltest/src/Form/DrupaltestForm.php",
+		"/Applications/MAMP/htdocs/drupaldemo/core/modules/migrate/src/Event/EventBase.php",
+		"/Applications/MAMP/htdocs/drupaldemo/core/modules/migrate/src/Event/MigrateRollbackEvent.php",
+		"/Applications/MAMP/htdocs/drupaldemo/core/modules/migrate/src/Event/ImportAwareInterface.php",
+		"/Applications/MAMP/htdocs/drupaldemo/core/modules/migrate/src/Event/MigrateMapDeleteEvent.php",
+		"/Applications/MAMP/htdocs/drupaldemo/core/modules/migrate/src/Event/MigrateMapSaveEvent.php",
+		"/Applications/MAMP/htdocs/drupaldemo/core/modules/migrate/migrate.services.yml",
+		"/Applications/MAMP/htdocs/drupaldemo/core/modules/locale/src/LocaleEvent.php",
+		"/Applications/MAMP/htdocs/drupaldemo/core/modules/locale/src/LocaleEvents.php",
+		"/Applications/MAMP/htdocs/drupaldemo/core/modules/views/tests/src/Kernel/Plugin/RowRenderCacheTest.php",
+		"/Applications/MAMP/htdocs/drupaldemo/core/modules/rdf/tests/src/Functional/ImageFieldAttributesTest.php",
+		"/Applications/MAMP/htdocs/drupaldemo/core/modules/editor/tests/src/Functional/EditorPrivateFileReferenceFilterTest.php",
+		"/Applications/MAMP/htdocs/drupaldemo/core/modules/media/src/Entity/Media.php",
+		"/Applications/MAMP/htdocs/drupaldemo/core/modules/user/src/Entity/User.php",
+		"/Applications/MAMP/htdocs/drupaldemo/core/modules/path_alias/src/Entity/PathAlias.php",
+		"/Applications/MAMP/htdocs/drupaldemo/core/modules/node/src/NodeAccessControlHandler.php",
+		"/Applications/MAMP/htdocs/drupaldemo/core/modules/node/src/NodeGrantDatabaseStorageInterface.php",
+		"/Applications/MAMP/htdocs/drupaldemo/modules/drupaltest/src/Plugin/Block/CustomBlock.php",
+		"/Applications/MAMP/htdocs/drupaldemo/core/modules/layout_builder/src/Event/SectionComponentBuildRenderArrayEvent.php",
+		"/Applications/MAMP/htdocs/drupaldemo/core/modules/jsonapi/src/ResourceType/ResourceTypeBuildEvent.php",
+		"/Applications/MAMP/htdocs/drupaldemo/core/modules/migrate/src/Event/MigrateIdMapMessageEvent.php",
+		"/Applications/MAMP/htdocs/drupaldemo/core/modules/layout_builder/src/EventSubscriber/PrepareLayout.php",
+		"/Applications/MAMP/htdocs/drupaldemo/core/modules/layout_builder/layout_builder.module",
+		"/Applications/MAMP/htdocs/drupaldemo/core/modules/block_content/src/Event/BlockContentGetDependencyEvent.php",
+		"/Applications/MAMP/htdocs/drupaldemo/core/modules/migrate/src/Event/MigratePostRowSaveEvent.php",
+		"/Applications/MAMP/htdocs/drupaldemo/core/modules/layout_builder/layout_builder.services.yml",
+		"/Applications/MAMP/htdocs/drupaldemo/core/modules/content_moderation/src/Plugin/Action/ModerationOptOutPublish.php",
+		"/Applications/MAMP/htdocs/drupaldemo/core/modules/media/src/EventSubscriber/MediaConfigSubscriber.php",
+		"/Applications/MAMP/htdocs/drupaldemo/core/modules/block/src/EventSubscriber/BlockPageDisplayVariantSubscriber.php",
+		"/Applications/MAMP/htdocs/drupaldemo/some-dir/web/core/lib/Drupal/Core/Cache/MemoryBackend.php",
+		"/Applications/MAMP/htdocs/drupaldemo/core/modules/language/src/EventSubscriber/ConfigSubscriber.php",
+		"/Applications/MAMP/htdocs/drupaldemo/core/modules/system/src/SystemConfigSubscriber.php",
+		"/Applications/MAMP/htdocs/drupaldemo/core/modules/node/src/EventSubscriber/NodeAdminRouteSubscriber.php",
+		"/Applications/MAMP/htdocs/drupaldemo/modules/drupaltest/src/EventSubscriber/AlterRouteSubscriber.php",
+		"/Applications/MAMP/htdocs/drupaldemo/core/modules/color/src/EventSubscriber/ColorConfigCacheInvalidator.php",
+		"/Applications/MAMP/htdocs/drupaldemo/core/modules/big_pipe/src/EventSubscriber/NoBigPipeRouteAlterSubscriber.php",
+		"/Applications/MAMP/htdocs/drupaldemo/core/modules/big_pipe/src/EventSubscriber/HtmlResponseBigPipeSubscriber.php",
+		"/Applications/MAMP/htdocs/drupaldemo/core/modules/big_pipe/big_pipe.routing.yml",
+		"/Applications/MAMP/htdocs/drupaldemo/core/modules/ban/src/Form/BanDelete.php",
+		"/Applications/MAMP/htdocs/drupaldemo/core/modules/ban/src/Form/BanAdmin.php",
+		"/Applications/MAMP/htdocs/drupaldemo/core/modules/automated_cron/src/EventSubscriber/AutomatedCron.php",
+		"/Applications/MAMP/htdocs/drupaldemo/core/modules/editor/editor.routing.yml",
+		"/Applications/MAMP/htdocs/drupaldemo/core/modules/ban/ban.routing.yml",
+		"/Applications/MAMP/htdocs/drupaldemo/core/modules/editor/src/Form/EditorImageDialog.php",
+		"/Applications/MAMP/htdocs/drupaldemo/core/modules/media/tests/src/Kernel/EditorMediaDialogTest.php",
+		"/Applications/MAMP/htdocs/drupaldemo/core/modules/system/tests/src/Functional/Form/StubForm.php",
+		"/Applications/MAMP/htdocs/drupaldemo/core/modules/media_library/src/Form/AddFormBase.php",
+		"/Applications/MAMP/htdocs/drupaldemo/core/modules/filter/tests/filter_test/src/Form/FilterTestFormatForm.php",
+		"/Applications/MAMP/htdocs/drupaldemo/core/modules/node/src/Form/NodePreviewForm.php",
+		"/Applications/MAMP/htdocs/drupaldemo/core/modules/views/tests/modules/views_test_data/src/Form/ViewsTestDataElementEmbedForm.php",
+		"/Applications/MAMP/htdocs/drupaldemo/core/modules/views/src/Form/ViewsExposedForm.php",
+		"/Applications/MAMP/htdocs/drupaldemo/core/modules/editor/src/Form/EditorLinkDialog.php",
+		"/Applications/MAMP/htdocs/drupaldemo/core/modules/block/tests/modules/block_test/src/Form/FavoriteAnimalTestForm.php",
+		"/Applications/MAMP/htdocs/drupaldemo/core/modules/block/tests/modules/block_test/src/Form/TestForm.php",
+		"/Applications/MAMP/htdocs/drupaldemo/core/modules/media/src/Form/EditorMediaDialog.php",
+		"/Applications/MAMP/htdocs/drupaldemo/core/modules/user/src/Plugin/Block/UserLoginBlock.php",
+		"/Applications/MAMP/htdocs/drupaldemo/core/modules/big_pipe/tests/modules/big_pipe_test/src/BigPipeTestController.php",
+		"/Applications/MAMP/htdocs/drupaldemo/core/modules/big_pipe/tests/modules/big_pipe_regression_test/src/BigPipeRegressionTestController.php"
+	],
+	"find":
+	{
+		"height": 38.0
+	},
+	"find_in_files":
+	{
+		"height": 101.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": false,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"scrollbar_highlights": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"use_gitignore": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"folders":
+	[
+		{
+			"path": "/Applications/MAMP/htdocs/drupaldemo"
+		}
+	],
+	"groups":
+	[
+		{
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "behat.yml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 867,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/YAML/YAML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"stack_multiselect": false,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "behat.txt",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1680,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								936,
+								936
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"stack_multiselect": false,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "modules/drupaltest/tests/src/Unit/DrupalunitTest.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 146,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								142,
+								142
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"stack_multiselect": false,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "modules/drupaltest/src/Controller/DrupaltestController.php",
+					"selected": true,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2826,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								752,
+								752
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"stack_multiselect": false,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 24.0
+	},
+	"input":
+	{
+		"height": 36.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "",
+	"replace":
+	{
+		"height": 44.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"/Applications/MAMP/htdocs/firstapp/public/index.sublime-workspace"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 342.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

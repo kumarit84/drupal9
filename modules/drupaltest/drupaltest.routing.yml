@@ -6,6 +6,15 @@ drupaltest.displayplage:
   requirements:
     _permission: 'access content'
 
+drupaltest.homepage:
+  path: '/drupaltest/home'
+  defaults:
+    _controller: drupaltest.drupalutility:getHomepage
+    #_controller: '\Drupal\drupaltest\DrupalUtility::getHomepage'
+    _title: 'Homepage'
+  requirements:
+    _permission: 'access content'
+
 drupaltest.redirecttoadmin:
   path: '/drupaltest/redirectadmin'
   defaults:
