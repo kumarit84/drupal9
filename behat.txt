@@ -102,3 +102,9 @@ docker run -tid -p 8000:80 --name apache_server php:7.4-apache
 Drupal update
 composer update drupal/core "drupal/core-*" --with-all-dependencies
 composer update drupal/core --
+
+
+
+cp /Applications/MAMP/htdocs/drupaldemo/modules/drupaltest/src/Plugin/Block/CustomHook.php /Applications/MAMP/htdocs/drupaldemo/modules/drupaltest/src/Plugin/Filter/CustomFilter.php
+
+cp modules/drupaltest/src/Plugin/Block/CustomHook.php modules/drupaltest/src/Plugin/Filter/CustomFilter.php

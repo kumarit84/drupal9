@@ -12,3 +12,14 @@ function drupaltest_node_update(NodeInterface $node){
 	$event = new CustomNodeEvent($node);
     \Drupal::service('event_dispatcher')->dispatch($event, CustomNodeEvent::NODEUPDATE_EVENT);
 }
+
+function drupaltest_theme(){
+	return [
+      'marquee' => [
+      	'variables' => [
+      	   'content' => '',
+      	   'attributes' => [],
+      	],
+      ],
+	];
+}
