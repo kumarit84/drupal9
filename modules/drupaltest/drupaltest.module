@@ -21,5 +21,11 @@ function drupaltest_theme(){
       	   'attributes' => [],
       	],
       ],
+      'progress' => [
+      	'variables' => [
+      	   'content' => '',
+      	   'attributes' => [],
+      	],
+      ],
 	];
 }

@@ -15,7 +15,7 @@ class CustomTag {
     $build = [];
 
     $build['Heading'] = [
-      '#plain_text' => 'Test the usage of custom Render element',
+      '#plain_text' => 'Test the usage of custom Render tag marquee element',
     ];
 
     $build['marquee'] = [
@@ -28,7 +28,18 @@ class CustomTag {
        ],
     ];
 
+    $build['progress'] = [
+      '#type' => 'progress',
+      '#content'=>'60%',
+      '#attributes' => [
+        'id'=>'id_progress',
+        'max'=> 100,
+        'value'=> 60,
+       ],
+    ];
+
     return $build;
   }
+
 
 }

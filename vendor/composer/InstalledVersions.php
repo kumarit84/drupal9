@@ -30,7 +30,7 @@ private static $installed = array (
     'aliases' => 
     array (
     ),
-    'reference' => '216ed567640730e5f2d74e47c11da17d4bfc2184',
+    'reference' => 'b207ef881c2271529834c4ffa4b3cf7ff0802ece',
     'name' => 'drupal/legacy-project',
   ),
   'versions' => 
@@ -445,6 +445,24 @@ private static $installed = array (
       ),
       'reference' => '1.0.0',
     ),
+    'drupal/bootstrap_barrio' => 
+    array (
+      'pretty_version' => '5.5.2',
+      'version' => '5.5.2.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '5.5.2',
+    ),
+    'drupal/bootstrap_sass' => 
+    array (
+      'pretty_version' => '5.0.3',
+      'version' => '5.0.3.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '5.0.3',
+    ),
     'drupal/breakpoint' => 
     array (
       'replaced' => 
@@ -779,16 +797,6 @@ private static $installed = array (
       ),
       'reference' => '4.1.1',
     ),
-    'drupal/devel_php' => 
-    array (
-      'pretty_version' => 'dev-1.x',
-      'version' => 'dev-1.x',
-      'aliases' => 
-      array (
-        0 => '1.x-dev',
-      ),
-      'reference' => '2bf161ac1e7cd2adf000524a6ecd944635d40be6',
-    ),
     'drupal/drupal-driver' => 
     array (
       'pretty_version' => 'v2.1.1',
@@ -947,7 +955,7 @@ private static $installed = array (
       'aliases' => 
       array (
       ),
-      'reference' => '216ed567640730e5f2d74e47c11da17d4bfc2184',
+      'reference' => 'b207ef881c2271529834c4ffa4b3cf7ff0802ece',
     ),
     'drupal/link' => 
     array (
@@ -2248,6 +2256,15 @@ private static $installed = array (
       ),
       'reference' => '34a41e998c2183e22995f158c581e7b5e755ab9e',
     ),
+    'twbs/bootstrap' => 
+    array (
+      'pretty_version' => 'v5.1.1',
+      'version' => '5.1.1.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '0d81d3cbc14dfcdca8a868e3f25189a4f1ab273c',
+    ),
     'twig/twig' => 
     array (
       'pretty_version' => 'v2.14.6',
@@ -2256,6 +2273,13 @@ private static $installed = array (
       array (
       ),
       'reference' => '27e5cf2b05e3744accf39d4c68a3235d9966d260',
+    ),
+    'twitter/bootstrap' => 
+    array (
+      'replaced' => 
+      array (
+        0 => 'v5.1.1',
+      ),
     ),
     'typo3/phar-stream-wrapper' => 
     array (
