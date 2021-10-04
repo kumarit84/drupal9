@@ -1,13 +1,13 @@
-name: Bootstrap Barrio custom theme
+name: SASS Bootstrap Starter Kit Subtheme
 type: theme
-description: 'Bootstrap Barrio custom theme.'
+description: 'SASS starter kit for a Bootstrap Barrio SubTheme.'
 # version: VERSION
 core: 8.x
 core_version_requirement: ^8 || ^9
 base theme: bootstrap_barrio
 
 libraries:
-  - bootstrap_sass/global-styling
+  - bootstrap_custom/global-styling
 libraries-override:
   bootstrap_barrio/global-styling: false
   bootstrap_barrio/file: false
@@ -37,5 +37,5 @@ regions:
 
 # Information added by Drupal.org packaging script on 2021-07-18
 version: '5.0.3'
-project: 'bootstrap_sass'
+project: 'bootstrap_custom'
 datestamp: 1626639823

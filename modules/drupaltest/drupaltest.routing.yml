@@ -65,7 +65,6 @@ drupaltest.customtag:
     _controller: '\Drupal\drupaltest\Controller\CustomTag::content'
   requirements:
     _permission: 'access content'
-    drupal_access_check: 'TRUE'
 
 drupaltest.stateapiaddform:
   path: '/drupaltest/configform'

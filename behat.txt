@@ -108,3 +108,17 @@ composer update drupal/core --
 cp /Applications/MAMP/htdocs/drupaldemo/modules/drupaltest/src/Plugin/Block/CustomHook.php /Applications/MAMP/htdocs/drupaldemo/modules/drupaltest/src/Plugin/Filter/CustomFilter.php
 
 cp modules/drupaltest/src/Plugin/Block/CustomHook.php modules/drupaltest/src/Plugin/Filter/CustomFilter.php
+
+
+Bootstrap
+---------
+
+install npm and node
+
+npm init -y
+
+npm install gulp-cli
+
+and then again
+ npm init -y
+ npm install <other module name>

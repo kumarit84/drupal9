@@ -30,7 +30,7 @@ private static $installed = array (
     'aliases' => 
     array (
     ),
-    'reference' => 'b207ef881c2271529834c4ffa4b3cf7ff0802ece',
+    'reference' => 'aaf5408cef4f4cb6fe26e5807b724c25f76adcd7',
     'name' => 'drupal/legacy-project',
   ),
   'versions' => 
@@ -127,12 +127,12 @@ private static $installed = array (
     ),
     'composer/installers' => 
     array (
-      'pretty_version' => 'v1.11.0',
-      'version' => '1.11.0.0',
+      'pretty_version' => 'v1.12.0',
+      'version' => '1.12.0.0',
       'aliases' => 
       array (
       ),
-      'reference' => 'ae03311f45dfe194412081526be2e003960df74b',
+      'reference' => 'd20a64ed3c94748397ff5973488761b22f6d3f19',
     ),
     'composer/semver' => 
     array (
@@ -145,12 +145,12 @@ private static $installed = array (
     ),
     'consolidation/annotated-command' => 
     array (
-      'pretty_version' => '4.2.4',
-      'version' => '4.2.4.0',
+      'pretty_version' => '4.4.0',
+      'version' => '4.4.0.0',
       'aliases' => 
       array (
       ),
-      'reference' => 'ec297e05cb86557671c2d6cbb1bebba6c7ae2c60',
+      'reference' => '308f6ac178566a1ce9aa90ed908dac90a2c1e707',
     ),
     'consolidation/config' => 
     array (
@@ -208,12 +208,12 @@ private static $installed = array (
     ),
     'consolidation/site-alias' => 
     array (
-      'pretty_version' => '3.1.0',
-      'version' => '3.1.0.0',
+      'pretty_version' => '3.1.1',
+      'version' => '3.1.1.0',
       'aliases' => 
       array (
       ),
-      'reference' => '9ed3c590be9fcf9fea69c73456c2fd4b27f5204c',
+      'reference' => 'e824b57253d9174f4a500f87e6d0e1e497c2a50a',
     ),
     'consolidation/site-process' => 
     array (
@@ -436,15 +436,6 @@ private static $installed = array (
         0 => '9.2.6',
       ),
     ),
-    'drupal/bootstrap5' => 
-    array (
-      'pretty_version' => '1.0.0',
-      'version' => '1.0.0.0',
-      'aliases' => 
-      array (
-      ),
-      'reference' => '1.0.0',
-    ),
     'drupal/bootstrap_barrio' => 
     array (
       'pretty_version' => '5.5.2',
@@ -453,15 +444,6 @@ private static $installed = array (
       array (
       ),
       'reference' => '5.5.2',
-    ),
-    'drupal/bootstrap_sass' => 
-    array (
-      'pretty_version' => '5.0.3',
-      'version' => '5.0.3.0',
-      'aliases' => 
-      array (
-      ),
-      'reference' => '5.0.3',
     ),
     'drupal/breakpoint' => 
     array (
@@ -797,6 +779,15 @@ private static $installed = array (
       ),
       'reference' => '4.1.1',
     ),
+    'drupal/devel_php' => 
+    array (
+      'pretty_version' => '1.3.0',
+      'version' => '1.3.0.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '8.x-1.3',
+    ),
     'drupal/drupal-driver' => 
     array (
       'pretty_version' => 'v2.1.1',
@@ -955,7 +946,7 @@ private static $installed = array (
       'aliases' => 
       array (
       ),
-      'reference' => 'b207ef881c2271529834c4ffa4b3cf7ff0802ece',
+      'reference' => 'aaf5408cef4f4cb6fe26e5807b724c25f76adcd7',
     ),
     'drupal/link' => 
     array (
@@ -1260,12 +1251,12 @@ private static $installed = array (
     ),
     'drush/drush' => 
     array (
-      'pretty_version' => '10.5.0',
-      'version' => '10.5.0.0',
+      'pretty_version' => '10.6.0',
+      'version' => '10.6.0.0',
       'aliases' => 
       array (
       ),
-      'reference' => '3fd9f7e62ffb7f221e4be8151a738529345d22d5',
+      'reference' => 'c86d327359baddb0a2f51bb458703826469a0445',
     ),
     'egulias/email-validator' => 
     array (
@@ -1435,12 +1426,12 @@ private static $installed = array (
     ),
     'nikic/php-parser' => 
     array (
-      'pretty_version' => 'v4.12.0',
-      'version' => '4.12.0.0',
+      'pretty_version' => 'v4.13.0',
+      'version' => '4.13.0.0',
       'aliases' => 
       array (
       ),
-      'reference' => '6608f01670c3cc5079e18c1dab1104e002579143',
+      'reference' => '50953a2691a922aa1769461637869a0a2faa3f53',
     ),
     'orno/di' => 
     array (
@@ -1523,21 +1514,21 @@ private static $installed = array (
     ),
     'phpdocumentor/type-resolver' => 
     array (
-      'pretty_version' => '1.4.0',
-      'version' => '1.4.0.0',
+      'pretty_version' => '1.5.0',
+      'version' => '1.5.0.0',
       'aliases' => 
       array (
       ),
-      'reference' => '6a467b8989322d92aa1c8bf2bebcc6e5c2ba55c0',
+      'reference' => '30f38bffc6f24293dadd1823936372dfa9e86e2f',
     ),
     'phpspec/prophecy' => 
     array (
-      'pretty_version' => '1.13.0',
-      'version' => '1.13.0.0',
+      'pretty_version' => '1.14.0',
+      'version' => '1.14.0.0',
       'aliases' => 
       array (
       ),
-      'reference' => 'be1996ed8adc35c3fd795488a653f4b518be70ea',
+      'reference' => 'd86dfc2e2a3cd366cee475e52c6bb3bbc371aa0e',
     ),
     'phpspec/prophecy-phpunit' => 
     array (
@@ -1550,12 +1541,12 @@ private static $installed = array (
     ),
     'phpunit/php-code-coverage' => 
     array (
-      'pretty_version' => '9.2.6',
-      'version' => '9.2.6.0',
+      'pretty_version' => '9.2.7',
+      'version' => '9.2.7.0',
       'aliases' => 
       array (
       ),
-      'reference' => 'f6293e1b30a2354e8428e004689671b83871edde',
+      'reference' => 'd4c798ed8d51506800b441f7a13ecb0f76f12218',
     ),
     'phpunit/php-file-iterator' => 
     array (
@@ -1595,12 +1586,12 @@ private static $installed = array (
     ),
     'phpunit/phpunit' => 
     array (
-      'pretty_version' => '9.5.8',
-      'version' => '9.5.8.0',
+      'pretty_version' => '9.5.10',
+      'version' => '9.5.10.0',
       'aliases' => 
       array (
       ),
-      'reference' => '191768ccd5c85513b4068bdbe99bb6390c7d54fb',
+      'reference' => 'c814a05837f2edb0d1471d6e3f4ab3501ca3899a',
     ),
     'psr/cache' => 
     array (
@@ -1895,12 +1886,12 @@ private static $installed = array (
     ),
     'symfony/config' => 
     array (
-      'pretty_version' => 'v4.4.27',
-      'version' => '4.4.27.0',
+      'pretty_version' => 'v4.4.30',
+      'version' => '4.4.30.0',
       'aliases' => 
       array (
       ),
-      'reference' => '8132e8d645d703e9b7c9c4f25067b93638683a35',
+      'reference' => 'd9ea72de055cd822e5228ff898e2aad2f52f76b0',
     ),
     'symfony/console' => 
     array (
@@ -1913,12 +1904,12 @@ private static $installed = array (
     ),
     'symfony/css-selector' => 
     array (
-      'pretty_version' => 'v5.3.4',
-      'version' => '5.3.4.0',
+      'pretty_version' => 'v4.4.27',
+      'version' => '4.4.27.0',
       'aliases' => 
       array (
       ),
-      'reference' => '7fb120adc7f600a59027775b224c13a33530dd90',
+      'reference' => '5194f18bd80d106f11efa8f7cd0fbdcc3af96ce6',
     ),
     'symfony/debug' => 
     array (
@@ -1949,12 +1940,12 @@ private static $installed = array (
     ),
     'symfony/dom-crawler' => 
     array (
-      'pretty_version' => 'v4.4.27',
-      'version' => '4.4.27.0',
+      'pretty_version' => 'v4.4.30',
+      'version' => '4.4.30.0',
       'aliases' => 
       array (
       ),
-      'reference' => '86aa075c9e0b13ac7db8d73d1f9d8b656143881a',
+      'reference' => '4632ae3567746c7e915c33c67a2fb6ab746090c4',
     ),
     'symfony/error-handler' => 
     array (
@@ -2001,12 +1992,12 @@ private static $installed = array (
     ),
     'symfony/finder' => 
     array (
-      'pretty_version' => 'v5.3.4',
-      'version' => '5.3.4.0',
+      'pretty_version' => 'v4.4.30',
+      'version' => '4.4.30.0',
       'aliases' => 
       array (
       ),
-      'reference' => '17f50e06018baec41551a71a15731287dbaab186',
+      'reference' => '70362f1e112280d75b30087c7598b837c1b468b6',
     ),
     'symfony/http-client-contracts' => 
     array (
@@ -2046,12 +2037,12 @@ private static $installed = array (
     ),
     'symfony/phpunit-bridge' => 
     array (
-      'pretty_version' => 'v5.3.4',
-      'version' => '5.3.4.0',
+      'pretty_version' => 'v5.3.8',
+      'version' => '5.3.8.0',
       'aliases' => 
       array (
       ),
-      'reference' => 'bc368b765a651424b19f5759953ce2873e7d448b',
+      'reference' => 'e9c0548d8d7abcd257f18f0adc0517895996a9c1',
     ),
     'symfony/polyfill-ctype' => 
     array (

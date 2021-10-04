@@ -1,0 +1,10 @@
+services:
+  drupalexample.function:
+    class: Drupal\drupalexample\Twig\Extension\TwigFunctionExtension
+    tags:
+      - { name: twig.extension }
+  drupalexample.filter:
+    arguments: ['@renderer']
+    class: Drupal\drupalexample\Twig\Extension\TwigFilterExtension
+    tags:
+      - { name: twig.extension }

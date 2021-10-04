@@ -11,7 +11,7 @@ default:
     DMore\ChromeExtension\Behat\ServiceContainer\ChromeExtension: ~
     Drupal\MinkExtension:
       goutte: ~
-      base_url: http://localhost:8800/drupaldemo/
+      base_url: http://localhost:8888/drupaldemo/
       javascript_session: selenium2
       selenium2:
         browser: chrome
