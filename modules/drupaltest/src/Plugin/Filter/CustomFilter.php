@@ -21,7 +21,7 @@ class CustomFilter extends FilterBase {
 
   public function process($text, $langcode) {
     $homepage_filter_tooltip = $this->settings['homepage_filter_tooltip'] ? ' This is homepage url!' : '';
-    $replace = '<span class="custom-filter"><a href="/" title="'.$homepage_filter_tooltip.'">' . $this->t('Homepage') . '</a></span>';
+    $replace = '<span class="custom-filter"><a href="/drupaldemo" title="'.$homepage_filter_tooltip.'">' . $this->t('Homepage') . '</a></span>';
     $new_text = str_replace('[homepage]', $replace, $text);
 
     $result = new FilterProcessResult($new_text);

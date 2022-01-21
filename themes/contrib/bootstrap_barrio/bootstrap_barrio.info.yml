@@ -2,7 +2,7 @@ name: Bootstrap Barrio
 type: theme
 description: 'A flexible Booststrap based theme, with many regions and a responsive, mobile-first layout.'
 core: 8.x
-core_version_requirement: ^8 || ^9
+core_version_requirement: ^8 || ^9|| ^10
 base theme: false
 
 libraries:
@@ -45,7 +45,7 @@ regions:
   footer_fourth: 'Footer fourth'
   footer_fifth: 'Footer fifth'
 
-# Information added by Drupal.org packaging script on 2021-07-18
-version: '5.5.2'
+# Information added by Drupal.org packaging script on 2021-10-11
+version: '5.5.4'
 project: 'bootstrap_barrio'
-datestamp: 1626640985
+datestamp: 1633918196

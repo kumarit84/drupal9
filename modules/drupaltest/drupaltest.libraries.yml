@@ -3,3 +3,13 @@ homepagefilter:
   css:
     theme:
       css/drupaltest.theme.css: {}
+
+globaljs:
+  version: 1.x
+  js:
+    js/globaljs.js: {}
+  dependencies: 
+    - core/drupal
+    - core/jquery
+    - core/drupal.dialog.ajax
+    - core/jquery.form

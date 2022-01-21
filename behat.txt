@@ -6,6 +6,8 @@ Coreupdate
 ----------
 composer update drupal/core "drupal/core-*" --with-all-dependencies
 
+composer update drupal/bootstrap_barrio --with-dependencies
+
 Behat
 ------
 composer require --dev behat/behat dmore/behat-chrome-extension drupal/drupal-extension
@@ -76,6 +78,7 @@ java -Dwebdriver.chrome.driver=/Applications/MAMP/htdocs/drupaldemo/behat-test/c
 
 java -Dwebdriver.chrome.driver=/Applications/MAMP/htdocs/drupaldemo/behat-test/chromedriver  -Dwebdriver.gecko.driver=/Applications/MAMP/htdocs/drupaldemo/behat-test/geckodrive -jar /Applications/MAMP/htdocs/drupaldemo/behat-test/selenium-server-standalone-3.9.1.jar
 
+xattr -d com.apple.quarantine /Applications/MAMP/htdocs/drupaldemo/behat-test/chromedriver
 
 phpunit
 -------
@@ -105,13 +108,28 @@ composer update drupal/core --
 
 
 
-cp /Applications/MAMP/htdocs/drupaldemo/modules/drupaltest/src/Plugin/Block/CustomHook.php /Applications/MAMP/htdocs/drupaldemo/modules/drupaltest/src/Plugin/Filter/CustomFilter.php
+cp /Applications/MAMP/htdocs/drupaldemo/modules/drupaltest/src/Controller/CustomTag.php /Applications/MAMP/htdocs/drupaldemo/modules/drupalexample/Twig/Extension/TwigFunctionExtension.php
+
+cp /Applications/MAMP/htdocs/drupaldemo/modules/drupaltest/src/Controller/CustomTag.php /Applications/MAMP/htdocs/drupaldemo/modules/drupalexample/Twig/Extension/TwigFilterExtension.php
 
 cp modules/drupaltest/src/Plugin/Block/CustomHook.php modules/drupaltest/src/Plugin/Filter/CustomFilter.php
+
+cp /Applications/MAMP/htdocs/drupaldemo/themes/contrib/bootstrap_bario/subtheme /Applications/MAMP/htdocs/drupaldemo/themes/contrib/bootstrap_bario/bario_custom
+
+cp /Applications/MAMP/htdocs/drupaldemo/themes/contrib/bootstrap_bario/subtheme /Applications/MAMP/htdocs/drupaldemo/themes/contrib/bootstrap_bario/bario_custom
+
+
+mkdir /Applications/MAMP/htdocs/drupaldemo/modules/drupalexample/Twig
+
+mkdir /Applications/MAMP/htdocs/drupaldemo/modules/drupalexample/Twig/Extension
 
 
 Bootstrap
 ---------
+
+install boostrap sass starter kit
+
+chnage all the name bootstrap_Sass to custom theme name
 
 install npm and node
 
@@ -122,3 +140,180 @@ npm install gulp-cli
 and then again
  npm init -y
  npm install <other module name>
+
+
+
+Json api
+-----------
+
+Post a node
+
+http://localhost:8888/drupaldemo/jsonapi/node/article
+
+
+
+{
+  "data": {
+    "type": "node--article",
+    "attributes": {
+      "title": "My custom title By rest api",
+      "body": {
+        "value": "<b>Custom value</b>",
+        "format": "basic_html"
+      }
+    }
+  }
+}
+
+
+Generate X-csrf-token from  <baseurl>/session/token
+pass below in body
+
+{
+	"username" :"name",
+	"password" :"password"
+}
+
+and Add the basic auth as username and password and get the code
+
+pass the header:
+Content-type : application/vnd.api+json
+X-csrf-token : <token genration> using session/token passing the username and password
+Basic authorization : <basic> use the same username using for genrating x-csrf-token
+
+
+//In custom code to genrate basic auth
+function formatBasicAuth(userName, password) {
+  var basicAuthCredential = userName + ":" + password;
+  var bace64 =  btoa(basicAuthCredential);
+  return 'Basic ' + bace64;
+}
+
+// then in your post
+var basic = formatBasicAuth('userName', 'password');
+
+
+
+Patch post
+--------
+
+http://example.com/jsonapi/node/article/{{article_uuid}}
+
+{
+  "data": {
+    "type": "node--article",
+    "id": "{{article_uuid}}",
+    "attributes": {
+      "title": "My updated title"
+    }
+  }
+}
+
+
+
+Get 
+----
+
+http://example.com/jsonapi/node/article
+Content-type : application/vnd.api+json
+
+
+Delete
+-----
+http://example.com/jsonapi/node/article/{{article_uuid}}
+Content-type : application/vnd.api+json
+Basic authorization : <basic> 
+
+Rest api service
+-----------------------
+json method get
+---------------
+
+http://localhost:8888/drupaldemo/node/4?_format=json
+
+Authorization & Content-Type -- Headers
+
+Json method post
+----------------
+
+http://localhost:8888/drupaldemo/node?_format=json
+
+[{"key":"Authorization","value":"Basic a3VtYXIxOnBhc3N3b3Jk","description":""},{"key":"Content-Type","value":"application/json","description":""},{"key":"X-CSRF-Token","value":"3tB_sXisX0JJ3HQcI2wJ7OvD1JeVBjxK2nlSVdOUwDI","description":""}]
+
+
+ {
+ 
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article",
+            "target_type": "node_type"
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "title": [
+        {
+            "value": "test page using rest"
+        }
+    ],
+    "body": [
+        {
+            "value": "asfsafsdf",
+            "format": "basic_html",
+            "summary": ""
+        }
+    ]
+}
+
+Hal Json METHOD POST
+------------------
+
+[{"key":"Authorization","value":"Basic a3VtYXIxOnBhc3N3b3Jk","description":""},{"key":"Content-Type","value":"application/hal+json","description":""},{"key":"X-CSRF-Token","value":"3tB_sXisX0JJ3HQcI2wJ7OvD1JeVBjxK2nlSVdOUwDI","description":""}]
+
+
+{
+    "_links": {
+        "type": {
+            "href": "http://localhost:8888/drupaldemo/rest/type/node/article"
+        }
+    },
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "article"
+        }
+    ],
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "test hal json",
+            "lang": "en"
+        }
+    ],
+    "body": [
+        {
+            "value": "test apu",
+            "format": "basic_html",
+            "summary": "",
+            "lang": "en"
+        }
+    ]
+}

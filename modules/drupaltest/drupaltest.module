@@ -27,5 +27,10 @@ function drupaltest_theme(){
       	   'attributes' => [],
       	],
       ],
-	];
+      'node_modal' => [
+        'variables' => [
+           'nid' => '',
+        ],
+      ],
+    ];
 }

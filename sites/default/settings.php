@@ -818,3 +818,5 @@ $settings['trusted_host_patterns'] = [
   '^localhost$',
 ];
 
+$settings['skip_permissions_hardening'] = TRUE;
+

@@ -197,13 +197,25 @@ function bootstrap_barrio_preprocess_page(&$variables) {
     'class' => ['sidebar_second', 'sidebar', $sidebar_second_width],
     'id' => ['sidebar_second'],
   ];
-
+  
   // Get custom Navbar classes from config and add them to Navbars.
   if (theme_get_setting('bootstrap_barrio_navbar_top_class') !== NULL) {
     $variables['navbar_top_attributes']['class'][] = theme_get_setting('bootstrap_barrio_navbar_top_class');
   }
   if (theme_get_setting('bootstrap_barrio_navbar_class') !== NULL) {
     $variables['navbar_attributes']['class'][] = theme_get_setting('bootstrap_barrio_navbar_class');
+  }
+
+  switch (theme_get_setting('bootstrap_barrio_navbar_offcanvas')) {
+    case 'offcanvas-collapse':
+      $variables['navbar_offcanvas'] = TRUE;
+      $variables['navbar_collapse_class'] = "offcanvas offcanvas-end";
+      $variables['navbar_collapse_btn_data'] = "offcanvas";
+      break;
+    default:
+      $variables['navbar _offcanvas'] = TRUE; 
+      $variables['navbar_collapse_class'] = 'collapse navbar-collapse justify-content-end';
+      $variables['navbar_collapse_btn_data'] = "collapse";
   }
 
   // Affix.
@@ -364,6 +376,9 @@ function bootstrap_barrio_preprocess_node(&$variables) {
   // displayed on the page.
   if ($variables['teaser'] || !empty($variables['content']['comments']['comment_form'])) {
     unset($variables['content']['links']['comment']['#links']['comment-add']);
+  }
+  if (theme_get_setting('bootstrap_barrio_hide_node_label') != NULL) {
+    unset($variables['label']);
   }
 }
 

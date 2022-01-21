@@ -1,0 +1,33 @@
+diff --git a/ip_language_negotiation.info.yml b/ip_language_negotiation.info.yml
+index 312e156..bcc4a9f 100644
+--- a/ip_language_negotiation.info.yml
++++ b/ip_language_negotiation.info.yml
+@@ -4,7 +4,7 @@ core: 8.x
+ core_version_requirement: ^8 || ^9
+ package: Location
+ dependencies:
+-  - ip2country:ip2country
++  - ip2country:ip2country (>= 8.x-1.9)
+   - drupal:language
+ project: ip_language_negotiation
+ type: module
+diff --git a/src/Plugin/LanguageNegotiation/IpLanguageNegotiationLanguageNegotiationIp.php b/src/Plugin/LanguageNegotiation/IpLanguageNegotiationLanguageNegotiationIp.php
+index 6c24624..2b35c42 100644
+--- a/src/Plugin/LanguageNegotiation/IpLanguageNegotiationLanguageNegotiationIp.php
++++ b/src/Plugin/LanguageNegotiation/IpLanguageNegotiationLanguageNegotiationIp.php
+@@ -48,13 +48,13 @@ class IpLanguageNegotiationLanguageNegotiationIp extends LanguageNegotiationMeth
+         // Debug IP entered.
+         else {
+           $ip = \Drupal::config('ip2country.settings')->get('test_ip_address') ?: $current_ip;
+-          $country_code = ip2country_get_country($ip);
++          $country_code = \Drupal::service('ip2country.lookup')->getCountry($ip);
+         }
+       }
+ 
+       // Check if the country code can be determined by the IP.
+       else {
+-        $country_code = ip2country_get_country($current_ip);
++        $country_code = \Drupal::service('ip2country.lookup')->getCountry($current_ip);
+       }
+ 
+       if (!empty($country_code)) {
