@@ -1,0 +1,18 @@
+# Portuguese, Brazil translation of jEditable inline content editing (2.0.0-beta1)
+# Copyright (c) 2022 by the Portuguese, Brazil translation team
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: jEditable inline content editing (2.0.0-beta1)\n"
+"POT-Creation-Date: 2022-03-16 18:46+0000\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Language-Team: Portuguese, Brazil\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+
+msgid "User Interface"
+msgstr "Interface do Usuário"
+msgid "Save field"
+msgstr "Salvar campo"

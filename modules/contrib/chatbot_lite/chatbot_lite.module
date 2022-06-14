@@ -1,0 +1,19 @@
+<?php
+
+/**
+ * @file
+ * Contains chatbot_api.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function chatbot_lite_help($route_name, RouteMatchInterface $route_match) {
+  if($route_name == 'help.page.chatbot_lite'){
+    $output = '<h3>' . t('About') . '</h3>';
+    $output .= '<p>' . t('Chatbot Lite has been designed with the purpose of engaging with customers in human-like conversations. It does not use any 3rd party platform.') . '</p>';
+    return $output;
+  }
+}

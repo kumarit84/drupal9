@@ -2,6 +2,7 @@
 
 use Drupal\node\NodeInterface;
 use Drupal\drupaltest\Event\CustomNodeEvent;
+use Drupal\views\ViewExecutable;
 
 function drupaltest_node_insert(NodeInterface $node){
 	$event = new CustomNodeEvent($node);
@@ -33,4 +34,10 @@ function drupaltest_theme(){
         ],
       ],
     ];
+}
+
+function drupaltest_views_pre_render(ViewExecutable $view) {
+  if (isset($view) && ($view->storage->id() == 'super_awesome_view')) {
+    $view->element['#attached']['library'][] = 'custom/custom_view';
+  }
 }

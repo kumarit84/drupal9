@@ -1,0 +1,14 @@
+chatbot_lite.settings:
+  type: config_object
+  label: 'Chatbot Lite config'
+  bot_cta:
+  bot_name:
+  bot_input_placeholder:
+  bot_searchable_entities:
+  bot_welcome_message:
+  bot_window_title:
+  bot_answer_questions:
+  bot_answer_nothing_found:
+  bot_answer_titles:
+  bot_answer_words_to_ignore:
+  

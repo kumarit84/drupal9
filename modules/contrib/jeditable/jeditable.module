@@ -1,0 +1,108 @@
+<?php
+
+/**
+ * @file
+ * Provides functionality for adding jeditable to formatters.
+ */
+
+use Drupal\Core\Entity\Entity\EntityViewDisplay;
+use Drupal\Core\Entity\EntityStorageInterface;
+use Drupal\Core\Entity\FieldableEntityInterface;
+
+function _jeditable_get_allowed_formatters() {
+  return [
+    'string',
+    'text_default',
+    'text_summary_or_trimmed',
+    'text_trimmed',
+    'basic_string',
+    'number_integer',
+    'number_decimal',
+    'number_unformatted',
+  ];
+}
+
+
+/**
+ * Implements hook_field_formatter_settings_summary_alter().
+ */
+function jeditable_field_formatter_settings_summary_alter(&$summary, $context) {
+  $allowed_formatters = _jeditable_get_allowed_formatters();
+  if (in_array($context['formatter']->getPluginId(), $allowed_formatters)) {
+    if ($context['formatter']->getThirdPartySetting('jeditable', 'enable_jeditable')) {
+      $summary[] = t("jeditable: enabled");
+    }
+  }
+}
+
+/**
+ * Implements hook_field_formatter_third_party_settings_form().
+ */
+function jeditable_field_formatter_third_party_settings_form($plugin, $field_definition, $view_mode, $form, $form_state) {
+  $element = [];
+  $allowed_formatters = _jeditable_get_allowed_formatters();
+  if (in_array($plugin->getPluginId(), $allowed_formatters)) {
+    $element['enable_jeditable'] = [
+      '#type' => 'checkbox',
+      '#title' => t('Enable jeditable'),
+      '#default_value' => $plugin->getThirdPartySetting('jeditable', 'enable_jeditable'),
+    ];
+  }
+  return $element;
+}
+
+/**
+ * Implements hook_preprocess_field().
+ */
+function jeditable_preprocess_field(&$variables) {
+  $third_party_settings = $variables['element']['#third_party_settings'];
+  if (isset($third_party_settings['jeditable'])
+    && isset($third_party_settings['jeditable']['enable_jeditable'])
+    && $third_party_settings['jeditable']['enable_jeditable'] == 1) {
+
+    $element = &$variables['element'];
+    foreach ($element['#items'] as $delta => $item) {
+
+      $entity = $element['#object'];
+      $id = $entity->id();
+      $entity_type = $element['#entity_type'];
+      $field_name = $element['#field_name'];
+      $view_mode = $element['#view_mode'];
+
+      $prefix = '<span id = "' . $entity_type . '-' . $id . '-' . $field_name . '-' . $view_mode . '-' . $delta . '" class="jeditable jeditable-textfield">';
+      $variables['items'][$delta]['content'] = [
+        '#type' => 'processed_text',
+        '#prefix' => $prefix,
+        '#text' => $item->value,
+        '#suffix' => '</span>',
+        '#format' => $item->format,
+        '#langcode' => $item->getLangcode(),
+        '#filter_types_to_skip' => ['filter_autop'],
+      ];
+
+    }
+    $variables['#attached']['library'][] = 'jeditable/jeditable.editor';
+  }
+}
+
+/**
+ * Implements hook_library_info_alter().
+ */
+function jeditable_library_info_alter(&$libraries, $extension) {
+  if ($extension == 'jeditable') {
+    if (!is_dir(DRUPAL_ROOT . '/libraries/jquery-jeditable')) {
+      $new_js = [];
+      $library_js = '/libraries/jquery-jeditable/dist/jquery.jeditable.min.js';
+      $cdn_js = 'https://cdnjs.cloudflare.com/ajax/libs/jeditable.js/2.0.19/jquery.jeditable.min.js';
+      foreach ($libraries['jeditable.lib']['js'] as $source => $options) {
+        if ($source == $library_js) {
+          $new_js[$cdn_js] = ["external", "minified"];
+        }
+        else {
+          $new_js[$source] = $options;
+        }
+      }
+      $libraries['jeditable.lib']['js'] = $new_js;
+    }
+  }
+}

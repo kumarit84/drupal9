@@ -1,0 +1,7 @@
+jeditable.ajax_save:
+  path: '/jeditable/ajax/save'
+  defaults:
+    _title: 'Save field'
+    _controller: '\Drupal\jeditable\Controller\JeditableAjax::jeditableAjaxSave'
+  requirements:
+    _permission: 'use jeditable'

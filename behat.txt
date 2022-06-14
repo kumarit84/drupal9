@@ -2,6 +2,8 @@ vim ~/.bash_profile
 esc :wq
 source ~/.bash_profile
 
+ci@giga-ai.com
+
 Coreupdate
 ----------
 composer update drupal/core "drupal/core-*" --with-all-dependencies

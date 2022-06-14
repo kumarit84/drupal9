@@ -1,11 +1,11 @@
-name: 'Behat UI'
-description: 'Create and run Behat/Mink tests from the web interface'
+name: "Behat UI"
+description: "Create and run Behat/Mink tests from the web interface"
 type: module
 configure: behat_ui.settings
-core_version_requirement: ~9
+core_version_requirement: ^9
 dependencies: []
 
-# Information added by Drupal.org packaging script on 2021-07-27
-version: '4.0.0'
+# Information added by Drupal.org packaging script on 2022-03-26
+version: '4.0.1'
 project: 'behat_ui'
-datestamp: 1627407887
+datestamp: 1648312736

@@ -1,0 +1,9 @@
+chatbot_lite:
+  css:
+    component:
+      css/chatbot_lite.css: {}
+  js:
+    js/chatbot_lite.js: {}
+  dependencies:
+    - core/jquery
+    - core/jquery.once

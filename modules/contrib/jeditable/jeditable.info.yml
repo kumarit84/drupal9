@@ -1,0 +1,12 @@
+name: jEditable Inline Content Editing
+description: 'Provides methods and field formatters for using the jEditable edit-in-place plugin'
+dependencies:
+  - drupal:field
+package: 'User Interface'
+core_version_requirement: ^8 || ^9
+type: module
+
+# Information added by Drupal.org packaging script on 2022-03-16
+version: '2.0.0-beta1'
+project: 'jeditable'
+datestamp: 1647454581

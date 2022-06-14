@@ -1,0 +1,5 @@
+chatbot_lite.settings:
+  title: 'Chatbot Lite'
+  description: 'Chatbot Lite has been designed with the purpose of engaging with customers in human-like conversations. It does not use any 3rd party platform.'
+  route_name: chatbot_lite.settings
+  parent: system.admin_config_system

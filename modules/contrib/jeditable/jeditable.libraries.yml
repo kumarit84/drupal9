@@ -1,0 +1,17 @@
+jeditable.lib:
+  js:
+    /libraries/jquery-jeditable/dist/jquery.jeditable.min.js: {}
+  dependencies:
+    - core/jquery
+
+jeditable.editor:
+  js:
+    js/drupal_jeditable.js: {}
+  css:
+    base:
+      css/jeditable.css: {}
+  dependencies:
+    - core/jquery
+    - core/drupal
+    - core/drupalSettings
+    - jeditable/jeditable.lib

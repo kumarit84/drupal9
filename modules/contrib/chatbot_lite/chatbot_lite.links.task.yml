@@ -1,0 +1,4 @@
+chatbot_lite.settings.config:
+  route_name: chatbot_lite.settings
+  title: Settings
+  base_route: chatbot_lite.settings

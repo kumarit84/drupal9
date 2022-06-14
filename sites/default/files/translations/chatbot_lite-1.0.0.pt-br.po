@@ -1,0 +1,24 @@
+# Portuguese, Brazil translation of Chatbot Lite (1.0.0)
+# Copyright (c) 2021 by the Portuguese, Brazil translation team
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Chatbot Lite (1.0.0)\n"
+"POT-Creation-Date: 2021-07-07 22:46+0000\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Language-Team: Portuguese, Brazil\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+
+msgid "Content types"
+msgstr "Tipos de conteúdo"
+msgid "Settings"
+msgstr "Configurações"
+msgid "Name"
+msgstr "Nome"
+msgid "Send"
+msgstr "Enviar"
+msgid "About"
+msgstr "Sobre"

@@ -24,7 +24,7 @@ class CustomBlock extends BlockBase implements TrustedCallbackInterface {
    */
   public function build() {
 
-    /*$message  = 'This is the timestamp '.time();
+    $message  = 'This is the timestamp '.time();
 
     return [
       '#markup' => $this->t($message),
@@ -32,18 +32,18 @@ class CustomBlock extends BlockBase implements TrustedCallbackInterface {
             //'max-age' => 0,
             //'tags' => ['node_list',],
             //'tags' => ['user:2',],
-            //'tags' => ['node:2',],
-            'context' => ['user',],
+            'tags' => ['node:2',],
+            //'context' => ['user',],
           ]
-    ];*/
+    ];
 
-    $content = [];
+    /*$content = [];
     $content['test'] = [
       '#lazy_builder' => [static::class . '::lazyBuildTestTable', []],
       '#create_placeholder' => TRUE,
     ];
     $content['#markup'] = $this->t('Welcome!! ');
-    return $content;
+    return $content;*/
   }
 
 

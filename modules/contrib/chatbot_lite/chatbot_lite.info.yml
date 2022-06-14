@@ -1,0 +1,11 @@
+name: Chatbot Lite
+description: Chatbot Lite has been designed with the purpose of engaging with customers in human-like conversations. It does not use any 3rd party platform.
+configure: chatbot_lite.settings
+package: Chatbot
+type: module
+# version: '1.0.0'
+core_version_requirement: ^8 || ^9
+# Information added by Drupal.org packaging script on 2021-07-07
+version: '1.0.0'
+project: 'chatbot_lite'
+datestamp: 1625695206

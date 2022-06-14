@@ -1,0 +1,14 @@
+chatbot_lite.settings:
+  path: '/admin/config/system/chatbot_lite'
+  defaults:
+    _form: '\Drupal\chatbot_lite\Form\Settings'
+    _title: 'Chatbot Lite'
+  requirements:
+    _permission: 'administer site configuration'
+chatbot_lite.chatbot_lite_form:
+  path: '/chatbot_lite_form'
+  defaults:
+    _form: 'Drupal\chatbot_lite\Form\AIForm'
+    _title: 'Chatbot Lite'
+  requirements:
+    _permission: 'access content'
